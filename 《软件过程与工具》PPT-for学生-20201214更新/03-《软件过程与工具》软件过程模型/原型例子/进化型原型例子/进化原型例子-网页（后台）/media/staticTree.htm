@@ -1,0 +1,57 @@
+
+<html>
+<head>
+<title></title>
+<style type='text/css'>
+
+</style>
+
+<link href="media/style1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<script language='JavaScript' src='menutree/menutree.js'></script>
+
+<script language="JavaScript">
+
+addtree('-主页','media/index.htm?method=io','mainFrame');
+addtree('-系统管理');
+addtree('--日志管理','log.htm?method=io','mainFrame');
+addtree('--资源配置','resource.htm?method=io','mainFrame');
+addtree('--角色配置','role.htm?method=io','mainFrame');
+addtree('--数据配置','data.htm?method=io','mainFrame');
+
+addtree('-数据管理');
+addtree('--目录管理','media/addmulu.html?method=io','mainFrame');
+addtree('---添加目录','media/addmulu.html?method=io','mainFrame');
+addtree('---删除目录','media/detetemulu.htm?method=io','mainFrame');
+addtree('---修改目录','media/altermulu.html?method=io','mainFrame');
+addtree('--信息管理','media/xinxiguanli.html?method=io','mainFrame');
+addtree('---信息发布','media/xinxifabu.html?method=io','mainFrame');
+addtree('--资源管理','media/ziyuanguanli.htm?method=io','mainFrame');
+addtree('---资源采集','media/ziyuancaiji.html?method=io','mainFrame');
+addtree('---资源审核','media/ziyuanshenhe.htm?method=io','mainFrame');
+addtree('--数据备份/恢复','3.jsp?method=io','mainFrame');
+addtree('--数据清除','media/shujuqqingchu.htm?method=io','mainFrame');
+
+addtree('-用户管理');
+addtree('--用户列表');
+addtree('---公司内部员工','yhlistsysmanager1.jsp?method=io','mainFrame');
+addtree('---互联网用户','yhlistinternet.jsp?method=io','mainFrame');
+addtree('--添加用户');
+addtree('---公司内部员工','addyhsysmanager.jsp?method=io','mainFrame');
+addtree('---互联网用户','addyhinternet.jsp?method=io','mainFrame');
+addtree('--用户审核');
+addtree('---公司内部员工','yhchecksysmanager.jsp?method=io','mainFrame');
+addtree('---互联网用户','yhcheckinternet.jsp?method=io','mainFrame');
+
+addtree('-统计管理');
+addtree('--访问人数统计','media/tongjirenshu.htm?method=io','mainFrame');
+addtree('--资源下载统计','media/tongjixiazai.htm?method=io','mainFrame');
+addtree('--资源情况统计','media/tongjiziyuan.htm?method=io','mainFrame');
+
+addtree('-帮助管理','help.jsp?method=io','mainFrame');
+createtree();
+</script>
+</body>
+</html>

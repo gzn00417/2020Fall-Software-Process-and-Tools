@@ -1,0 +1,41 @@
+<mockup version="1.0" skin="sketch" measuredW="1006" measuredH="656" mockupW="869" mockupH="632">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="127" y="14" w="869" h="632" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u91CD%u91D1%u5C5E%u6C61%u67D3%u9884%u8B66%u51B3%u7B56%u652F%u6301%u7CFB%u7EDF</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="142" y="39" w="162" h="49" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="666" y="66" w="-1" h="-1" measuredW="85" measuredH="22" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u6B22%u8FCE%u60A8%uFF1AXXXX</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::ButtonBar" x="127" y="103" w="839" h="28" measuredW="821" measuredH="28" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>5</selectedIndex>
+        <text>%u5F00%u59CB%2C%u6570%u636E%u91C7%u96C6%20%2C%u4E8B%u6545%u63A5%u8B66%20%2C%u6C61%u67D3%u9884%u6D4B%20%2C%u9884%u8B66%u5224%u5B9A%2C%20%u5E94%u6025%u9884%u6848%20%2C%u98CE%u9669%u6E90%u4FE1%u606F%u7BA1%u7406%2C%20%u6570%u636E%u5E93%u7BA1%u7406%2C%20%u7CFB%u7EDF%u5E2E%u52A9</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::TabBar" x="325" y="146" w="656" h="275" measuredW="261" measuredH="100" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>One%2C%20Two%2C%20Three%2C%20Four</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::StickyNote" x="388" y="275" w="436" h="123" measuredW="109" measuredH="123" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u6848%u4F8B%u5339%u914D%u533A%u57DF%20%u5404%u83DC%u5355%u5BF9%u5E94%u56FE%u7247%u5728%20%u5E94%u6025%u9884%u6848jpg%u6587%u4EF6%u5939</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Accordion" x="127" y="138" w="163" h="470" measuredW="185" measuredH="798" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>13</selectedIndex>
+        <text>%u5E94%u6025%u4FE1%u606F%u67E5%u770B%0A-%20%u5E94%u6025%u8D44%u6E90%u4FE1%u606F%0A-%20%u91CD%u91D1%u5C5E%u4FE1%u606F%0A-%20%u5E94%u6025%u4E13%u5BB6%u4FE1%u606F%0A-%20%u5371%u9669%u5316%u5B66%u54C1%u4FE1%u606F%0A-%20%u6CD5%u5F8B%u6CD5%u89C4%u4FE1%u606F%0A-%20%u654F%u611F%u53D7%u4F53%u4FE1%u606F%0A-%20%u793E%u4F1A%u7ECF%u6D4E%u4FE1%u606F%0A%u5E94%u6025%u9884%u6848%u4E0E%u5BF9%u7B56%0A-%20%u6307%u5BFC%u6027%u9884%u6848%0A-%20%u884C%u653F%u9884%u6848%0A-%20%u6280%u672F%u9884%u6848%0A-%20%u5382%u533A%u9884%u6848%0A%20%u6848%u4F8B%u5339%u914D%0A-%20%u6743%u503C%u67E5%u8BE2%0A-%20-%20%u6846%u67B6%u6743%u503C%u67E5%u8BE2%0A-%20-%20%u6C61%u67D3%u7269%u5B50%u6846%u67B6%u6743%u503C%u67E5%u8BE2%0A-%20-%20%u6C34%u6587%u6C34%u8D28%u5B50%u6846%u67B6%u6743%u503C%u67E5%u8BE2%0A-%20-%20%u6C14%u8C61%u5B50%u6846%u67B6%u6743%u503C%u67E5%u8BE2%0A-%20%u6848%u4F8B%u7BA1%u7406%0A-%20-%20%u6848%u4F8B%u5F55%u5165%0A-%20-%20%u6848%u4F8B%u67E5%u8BE2%u4FEE%u6539%0A-%20%u6848%u4F8B%u63A8%u7406%0A-%20%u9884%u6848%u8BC4%u4EF7%0A-%20-%20%u9884%u6848%u67E5%u770B%0A-%20-%20%u4E13%u5BB6%u8BC4%u4EF7%0A-%20-%20%u8BA1%u7B97%u5F97%u5206%0A-%20-%20%u9884%u6848%u4FEE%u6539%0A-%20-%20%u9884%u6848%u751F%u6210</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

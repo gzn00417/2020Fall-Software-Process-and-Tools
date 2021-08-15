@@ -1,0 +1,33 @@
+ul {margin:0; padding:0; list-style:none; line-height:15px}
+li {background:url(images/pointer.gif) center left no-repeat;padding:0 0 0 9px }
+
+
+body{
+ 	margin:0px;
+  	padding:0px;
+	background-color:#000000;
+	}
+td,div,select,td{
+	font-size:8px;
+    font-family:新宋体;
+	color:#9C9C9C;
+	line-height:18px;
+}
+input{
+	font-size:8px;
+    font-family:新宋体;
+	color:#292929;
+}
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+

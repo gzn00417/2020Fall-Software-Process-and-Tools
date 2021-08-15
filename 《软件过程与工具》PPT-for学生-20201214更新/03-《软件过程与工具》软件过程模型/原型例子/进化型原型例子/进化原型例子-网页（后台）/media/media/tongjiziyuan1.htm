@@ -1,0 +1,181 @@
+<%@ page contentType="text/html; charset=utf-8"%>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+
+
+    <style type="text/css">
+<!--
+.style1 {font-family: "新宋体"}
+.STYLE2 {color: #FFFFFF}
+.STYLE3 {
+	font-size: 14px;
+	font-family: "新宋体";
+	font-weight: bold;
+}
+-->
+    </style>
+</head>
+ <script>   
+  function   a(o)   
+  {   
+  l=document.getElementsByTagName("INPUT")   
+  for(i=0;i<l.length;i++)   
+  {   
+  if(l[i].type=="checkbox")   l[i].checked=o.checked   
+  }   
+  }   
+  </script>
+<body  >
+<form name="form1" method="post">
+<table cellpadding="0" cellspacing="0" border="0" align="center"   style="width:100%; height:600px ">
+		  <tr>
+			<td valign="top" style=" width:100%; height:600px " >
+				<table  border="0" cellspacing="0" cellpadding="0" style="width:100% ">
+				  <tr>
+					<td valign="top"  style="width:100%; background: url(images/tall1.jpg) repeat-x" height="799" align="center">
+						<table  border="0" cellspacing="0" cellpadding="0">
+							  <tr>
+								<td height="100" colspan="2" valign="top">
+									<table  border="0" cellspacing="0" cellpadding="0">
+									  <!--DWLayoutTable-->
+									  <tr>
+										<td width="697" height="10">&nbsp;
+										</td>
+			
+									  </tr>
+									  <tr>
+									    <td height="38" valign="top" style="background: url(images/tall_m.gif)">
+											<div style="margin-left:25px; margin-top:10px ">
+								        <span class="style1"><a  class="white">当前位置：资源情况统计 </a></span></div></td>
+									 <td>&nbsp;</td>
+								   
+									  <tr>
+									    <TD height="34" colspan="2"  align="center" valign="top"><p>&nbsp;</p>
+								        <p class="STYLE3 STYLE2"> 资 源 情 况 统 计</p>
+								        <p>&nbsp;</p></TD>
+				 </tr>
+									  <tr>
+									    <td  height="34"><p>搜索条件：</p>
+	
+	<tr bgcolor="#FF9100">	
+	</tr>
+</table></td>
+							
+					      </tr>
+									  <tr>
+									    <td  height="34" colspan="2">上传日期范围： 开始日期
+                                          <input type="text" name="textfield" style="background-color:#9C9C9C; color:#FFFFFF; width:126px; height:20px ">
+结束日期
+<input type="text" name="textfield2" style="background-color:#9C9C9C; color:#FFFFFF; width:126px; height:20px "></td>
+								      </tr>
+									  <tr>
+									    <td  height="34" colspan="2">所属分类： 
+									      <select name="select" style="width:126px; height:20px ">
+									        <option>公司1</option>
+									        <option>公司2</option>
+									        <option>公司3</option>
+									        <option>公司4</option>
+									        <option>子公司1</option>
+									        <option>子公司2</option>
+									        <option>子公司3</option>
+                                          </select>
+										  &nbsp;&nbsp;&nbsp;&nbsp;
+										  <img src="images/search.gif" onClick="javascript:window.navigate('#');"></td>
+								      </tr>
+									  <tr>
+									    <td  height="34" colspan="2">&nbsp;</td>
+					      </tr>
+									  <tr>
+									    <td  height="34" colspan="2"><table width=90% border=0 align=center cellpadding=0 cellspacing=0 bordercolor="#666666" bordercolorlight="#9C9C9C"
+	bordercolordark="#9C9C9C">
+	<tr bgcolor="#FF9100">
+	  <td align=center width=10%><input type="checkbox" name="checkbox" value="0" onClick="a(this)">
+	    <span class="STYLE2">全选</span></td>	
+	  	
+		<td align=center width=10%  height=25><span class="STYLE2"> 标题</span></td>
+		<td align=center width=10%  height=25><span class="STYLE2"> 发布者</span></td>
+		<td align=center width=10%  height=25><span class="STYLE2"> 所属部门</span></td>
+		<td width=10% align=center><span class="STYLE2"> 所属分类</span></td>
+		<td align=center width=10%><span class="STYLE2">类别</span></td>
+		<td align=center width=10%  height=25><span class="STYLE2"> 上传日期</span></td>
+		</tr>
+	
+	<tr onMouseOver="this.style.backgroundColor='#CCFFCC'" onMouseOut="this.style.backgroundColor=''" >
+	  <td align=center ><input type="checkbox" name="checkbox3" value="2"></td>
+	  <td width=10% align=center onClick=" view(50)">超人妈妈</td>
+	  <td  height=28 align=center>张三</td>
+	  <td  height=28 align=center >公司1</td>
+	  <td align=center>娱乐</td>
+	  <td align=center>Rmvb</td>
+	  <td  height=28 align=center>07-3-1</td>
+		</tr>
+	<tr onMouseOver="this.style.backgroundColor='#CCFFCC'" onMouseOut="this.style.backgroundColor=''" >
+	  <td align=center ><input type="checkbox" name="checkbox4" value="3"></td>
+	  <td width=10% align=center>java视频</td>
+	  <td  height=25 align=center>张三</td>
+	  <td  height=25 align=center >公司1</td>
+	  <td align=center>教学</td>
+	  <td align=center>Rmvb</td>
+	  <td  height=25 align=center>07-3-1</td>
+		</tr>
+	<tr onMouseOver="this.style.backgroundColor='#CCFFCC'" onMouseOut="this.style.backgroundColor=''" >
+	  <td align=center ><input type="checkbox" name="checkbox5" value="4"></td>
+	  <td width=10% align=center>C教程</td>
+	  <td  height=25 align=center>张三</td>
+	  <td  height=25 align=center >公司1</td>
+	  <td align=center>教学</td>
+	  <td align=center>Rmvb</td>
+	  <td  height=25 align=center>07-3-1</td>
+		</tr>
+	<tr onMouseOver="this.style.backgroundColor='#CCFFCC'" onMouseOut="this.style.backgroundColor=''" >
+	  <td align=center ><input type="checkbox" name="checkbox6" value="5"></td>
+	  <td width=10% align=center>C#语言教程</td>
+	  <td  height=25 align=center>张三</td>
+	  <td  height=25 align=center >公司1</td>
+	  <td align=center>教学</td>
+	  <td align=center>Rmvb</td>
+	  <td  height=25 align=center>07-3-1</td>
+		</tr>
+	<tr onMouseOver="this.style.backgroundColor='#CCFFCC'" onMouseOut="this.style.backgroundColor=''" >
+	  <td align=center ><input type="checkbox" name="checkbox7" value="6"></td>
+	  <td width=10% align=center>韩国综艺节目</td>
+	  <td  height=25 align=center>张三</td>
+	  <td  height=25 align=center >公司1</td>
+	  <td align=center>娱乐</td>
+	  <td align=center>Rmvb</td>
+	  <td  height=25 align=center>07-3-1</td>
+		</tr>
+	<tr onMouseOver="this.style.backgroundColor='#CCFFCC'" onMouseOut="this.style.backgroundColor=''" >
+	  <td align=center ><input type="checkbox" name="checkbox8" value="7"></td>
+	  <td width=10% align=center>鲁豫有约</td>
+	  <td  height=25 align=center>张三</td>
+	  <td  height=25 align=center >公司1</td>
+	  <td align=center>娱乐</td>
+	  <td align=center>Rmvb</td>
+	  <td  height=25 align=center>07-3-1</td>
+		</tr>
+</table></td>
+								      </tr>
+									   <tr>
+									    <td width="292"  height="30px" align="center"><span class="red STYLE2">共7个资源</span></td>
+									   <td width="410" align="center"><a href="#" class="radio_b STYLE2">首页</a>&nbsp;&nbsp;&nbsp; <a href="#" class="radio_b STYLE2">上一页</a>&nbsp;&nbsp;&nbsp; <a href="#" class="radio_b STYLE2">下一页</a>&nbsp;&nbsp;<a href="#" class="radio_b STYLE2">尾页</a> &nbsp;&nbsp;<a href="#" class="radio_b STYLE2">删除</a></td>
+									   </tr>
+									  <tr>
+									    <td  height="30px" colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+							
+								      </tr>
+									 
+        </table>			</td>
+		  </tr>
+</table>
+</form>
+</body>
+</html>

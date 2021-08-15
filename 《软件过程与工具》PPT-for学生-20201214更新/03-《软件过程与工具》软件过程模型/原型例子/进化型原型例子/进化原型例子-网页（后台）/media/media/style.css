@@ -1,0 +1,134 @@
+ul {margin:0; padding:0; list-style:none; line-height:17px}
+li {background:url(images/pointer.gif) center left no-repeat;padding:0 0 0 15px }
+
+
+body{
+ 	margin:0px;
+  	padding:0px;
+	background-color:#323232;
+	}
+td,div,select,td{
+	font-size:11px;
+    font-family:Tahoma;
+	color:#9C9C9C;
+	line-height:13px;
+}
+input{
+	font-size:11px;
+    font-family:Tahoma;
+	color:#292929;
+}
+.pol_9{
+	color:#5C5C5C;
+	text-decoration:none;
+	font-size:9px;
+}
+.pol{
+	color:#5C5C5C;
+	text-decoration:none;
+}
+.white_9{
+	color:#FFFFFF;
+	font-size:9px;
+}
+.m_9{
+	color:#9C9C9C;
+	font-size:9px;
+}
+.radio_b{
+	color:#949494;
+	font-size:12px;
+}
+.red{
+	color:#FF0000;
+}
+.green{
+	color:#00CC00;;
+}
+.blue{
+	color:#0140FE;
+}
+.brown{
+	color:#995800;
+	font-size:9px;
+	text-decoration:none;
+}
+.m_92{
+	color:#9C9C9C;
+	font-size:9px;
+	text-decoration:none
+}
+.white{
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:900;
+	text-decoration:none;
+}
+.orange{
+	color:#FF9300;
+	text-decoration:none;
+}
+.orange2{
+	color:#FF9300;
+}
+.orange_9{
+	color:#FF9300;
+	text-decoration:none;
+	font-size:9px;
+}
+.q2{
+	color:#D4D4D4;
+	font-size:9px;
+}
+
+a.m1:hover{ text-decoration:none}
+a.m_9:hover{ text-decoration:none}
+a.red:hover{ text-decoration:none}
+a.green:hover{ text-decoration:none}
+a.blue:hover{ text-decoration:none}
+a.m_92:hover{ text-decoration:none}
+a.orange:hover{ text-decoration:underline}
+a.orange2:hover{ text-decoration:none}
+a.brown:hover{ text-decoration:underline}
+a.m_92:hover{ text-decoration:underline}
+a.pol:hover{ color:#9C9C9C}
+
+ .input{
+  		width:151px; height:19px;
+		font-size:11px;
+    	font-family:Tahoma;
+		color:#9C9C9C;
+		padding-top:2px;
+		padding-left:3px;
+		border-color:#5F5F5F;
+		border-style:solid;
+		border-width:1px;
+		background-color:#3B3B3B;
+		}
+.textarea{
+  		width:164px; height:46px;
+		font-size:11px;
+    	font-family:Tahoma;
+		color:#050000;
+		padding-top:2px;
+		padding-left:3px;
+		border-color:#DB0500;
+		border-style:solid;
+		border-width:1px;
+		background-color:#960100;
+		overflow:hidden;
+		}
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
